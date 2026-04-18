@@ -1,36 +1,290 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>interior desing website</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arnav &amp; Netri — Our Little Forever</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Dancing+Script:wght@600;700&family=Inter:wght@300;400;500;600;700&family=Quicksand:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <div class="banner">
-        <div class="navbar">
-            <img src="logo3.png"class="logo">
-            <ul>
-                <li><a href="home.html" target="_main">home</a></li>
-                <li><a href="badroom.html"target="_main">badroom</a></li>
-                <li><a href="dining.html"target="_main">dining</a></li>
-                <li><a href="kitchen.html"target="_main">kitchen</a></li>
-                <li><a href="bathroom.html"target="_main">bathroom</a></li>
-            </ul>
-        </div>
+  <div class="scroll-progress" id="scrollProgress"></div>
+  <div class="cursor-glow" id="cursorGlow"></div>
+  <div class="hearts-bg" id="heartsBg"></div>
+  <div class="noise"></div>
 
-        <div class="content">
-            <h1>DESING YOUR HOUSE</h1>
-            <p>if you want more design like this pls download our app
-                <br>and press allow notification for more updates.</p>
-                <div>
-                    <button type="button"><span></span>WATCH MORE</button>
-                   <a href="https://www.instagram.com/itz._.prince06/" target="_main"><button type="button"><span></span>FOLLOW</button></a>
-                </div>
-        </div>
+  <header class="nav">
+    <a href="#top" class="logo">A &amp; N</a>
+    <nav>
+      <a href="#chats">Chats</a>
+      <a href="#gallery">Pictures</a>
+      <a href="#videos">Videos</a>
+      <a href="#timeline">Us</a>
+    </nav>
+  </header>
 
-
+  <section id="top" class="hero">
+    <div class="hero-inner">
+      <p class="eyebrow"><span class="line"></span> since the very first hello <span class="line"></span></p>
+      <h1>
+        <span class="name name-a">Arnav</span>
+        <span class="amp">&amp;</span>
+        <span class="name name-n">Netri</span>
+      </h1>
+      <p class="tagline">
+        a tiny scrapbook of our late-night talks,<br/>
+        silly selfies, and all the in&#8209;between.
+      </p>
+      <div class="hero-cta">
+        <a href="#chats" class="btn btn-primary">
+          <span>peek inside</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+        </a>
+        <a href="#timeline" class="btn btn-ghost">our story</a>
+      </div>
+      <div class="hero-meta">
+        <div><strong id="daysCounter">0</strong><span>days together</span></div>
+        <div class="divider"></div>
+        <div><strong>∞</strong><span>late-night calls</span></div>
+        <div class="divider"></div>
+        <div><strong>1</strong><span>forever</span></div>
+      </div>
     </div>
+    <div class="moon"></div>
+    <div class="stars"></div>
+    <div class="hero-fade"></div>
+  </section>
+
+  <section id="chats" class="section">
+    <div class="container">
+      <h2 class="section-title">2:47 AM conversations</h2>
+      <p class="section-sub">the ones we never wanted to end.</p>
+
+      <div class="phones">
+        <!-- Phone 1 -->
+        <div class="phone">
+          <div class="phone-top">
+            <div class="back">‹</div>
+            <div class="who">
+              <div class="avatar avatar-n">N</div>
+              <div>
+                <strong>Netri ♡</strong>
+                <span>online</span>
+              </div>
+            </div>
+            <div class="dots">⋮</div>
+          </div>
+          <div class="chat">
+            <div class="day">Today, 2:47 AM</div>
+            <div class="bubble in">you still up?</div>
+            <div class="bubble out">always am when you're typing 🌙</div>
+            <div class="bubble in">stoppp 😭</div>
+            <div class="bubble in">i can't sleep btw, brain too loud</div>
+            <div class="bubble out">tell me everything. i'm right here.</div>
+            <div class="bubble in">how do you always know what to say</div>
+            <div class="bubble out">because it's you ♡</div>
+            <div class="typing">
+              <span></span><span></span><span></span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Phone 2 -->
+        <div class="phone">
+          <div class="phone-top">
+            <div class="back">‹</div>
+            <div class="who">
+              <div class="avatar avatar-a">A</div>
+              <div>
+                <strong>Arnav 💫</strong>
+                <span>last seen just now</span>
+              </div>
+            </div>
+            <div class="dots">⋮</div>
+          </div>
+          <div class="chat">
+            <div class="day">Last Friday, 1:12 AM</div>
+            <div class="bubble in">guess who's thinking about you</div>
+            <div class="bubble out">hmmm. the moon? 🌙</div>
+            <div class="bubble in">close. someone shorter.</div>
+            <div class="bubble out">😂😂 omg</div>
+            <div class="bubble in">i wrote you something. wanna hear?</div>
+            <div class="bubble out">always.</div>
+            <div class="bubble in voice">
+              <span class="play">▶</span>
+              <span class="wave">
+                <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+              </span>
+              <span class="dur">0:42</span>
+            </div>
+            <div class="bubble out">i'm crying. send a refund for my heart.</div>
+          </div>
+        </div>
+
+        <!-- Phone 3 -->
+        <div class="phone">
+          <div class="phone-top">
+            <div class="back">‹</div>
+            <div class="who">
+              <div class="avatar avatar-n">N</div>
+              <div>
+                <strong>my Netriiii</strong>
+                <span>typing…</span>
+              </div>
+            </div>
+            <div class="dots">⋮</div>
+          </div>
+          <div class="chat">
+            <div class="day">Yesterday, 3:33 AM</div>
+            <div class="bubble out">3:33. make a wish.</div>
+            <div class="bubble in">already did. it's you 🥺</div>
+            <div class="bubble out">cheater. i was gonna say that.</div>
+            <div class="bubble in">we always say the same things 😭</div>
+            <div class="bubble out">because we're literally one person split into two phones</div>
+            <div class="bubble in">come over tomorrow?</div>
+            <div class="bubble out">i'm already in the car ♡</div>
+            <div class="bubble in heart">❤️</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="section alt">
+    <div class="container">
+      <h2 class="section-title">moments, frozen.</h2>
+      <p class="section-sub">our camera roll, slightly curated.</p>
+
+      <div class="gallery">
+        <figure class="polaroid p1">
+          <div class="photo gradient-1">
+            <span class="photo-emoji">🌃</span>
+          </div>
+          <figcaption>that rooftop, that song</figcaption>
+        </figure>
+        <figure class="polaroid p2">
+          <div class="photo gradient-2">
+            <span class="photo-emoji">☕</span>
+          </div>
+          <figcaption>2 coffees, 4 hours</figcaption>
+        </figure>
+        <figure class="polaroid p3">
+          <div class="photo gradient-3">
+            <span class="photo-emoji">🎡</span>
+          </div>
+          <figcaption>the ferris wheel kiss</figcaption>
+        </figure>
+        <figure class="polaroid p4">
+          <div class="photo gradient-4">
+            <span class="photo-emoji">🌧️</span>
+          </div>
+          <figcaption>caught in the rain — worth it</figcaption>
+        </figure>
+        <figure class="polaroid p5">
+          <div class="photo gradient-5">
+            <span class="photo-emoji">🍜</span>
+          </div>
+          <figcaption>3am noodles, our tradition</figcaption>
+        </figure>
+        <figure class="polaroid p6">
+          <div class="photo gradient-6">
+            <span class="photo-emoji">🌅</span>
+          </div>
+          <figcaption>watched the sun come up</figcaption>
+        </figure>
+        <figure class="polaroid p7">
+          <div class="photo gradient-7">
+            <span class="photo-emoji">🎧</span>
+          </div>
+          <figcaption>one earbud each</figcaption>
+        </figure>
+        <figure class="polaroid p8">
+          <div class="photo gradient-8">
+            <span class="photo-emoji">🌹</span>
+          </div>
+          <figcaption>"just because" flowers</figcaption>
+        </figure>
+      </div>
+
+      <p class="hint">tip: drop your own photos into a <code>/photos</code> folder and swap the gradients for <code>&lt;img&gt;</code> tags.</p>
+    </div>
+  </section>
+
+  <section id="videos" class="section">
+    <div class="container">
+      <h2 class="section-title">little clips of us</h2>
+      <p class="section-sub">the laughs we kept for later.</p>
+
+      <div class="videos">
+        <div class="video-card">
+          <div class="video-thumb v1">
+            <button class="play-btn" aria-label="Play">▶</button>
+            <span class="time">0:23</span>
+          </div>
+          <div class="video-meta">
+            <h3>netri's ridiculous laugh</h3>
+            <p>the snort happens at 0:14. worth it.</p>
+          </div>
+        </div>
+
+        <div class="video-card">
+          <div class="video-thumb v2">
+            <button class="play-btn" aria-label="Play">▶</button>
+            <span class="time">1:05</span>
+          </div>
+          <div class="video-meta">
+            <h3>arnav singing badly</h3>
+            <p>off-key cover of our song. iconic.</p>
+          </div>
+        </div>
+
+        <div class="video-card">
+          <div class="video-thumb v3">
+            <button class="play-btn" aria-label="Play">▶</button>
+            <span class="time">0:48</span>
+          </div>
+          <div class="video-meta">
+            <h3>dancing in the kitchen</h3>
+            <p>2 left feet × 2 = 4 left feet.</p>
+          </div>
+        </div>
+
+        <div class="video-card">
+          <div class="video-thumb v4">
+            <button class="play-btn" aria-label="Play">▶</button>
+            <span class="time">2:11</span>
+          </div>
+          <div class="video-meta">
+            <h3>fireworks, december</h3>
+            <p>you said "wow" 17 times. counted.</p>
+          </div>
+        </div>
+      </div>
+
+      <p class="hint">tip: replace <code>v1–v4</code> with <code>&lt;video src="…"&gt;</code> when you upload yours.</p>
+    </div>
+  </section>
+
+  <section id="timeline" class="section alt">
+    <div class="container narrow">
+      <h2 class="section-title">our little forever</h2>
+      <ul class="timeline">
+        <li><span class="dot"></span><strong>day 1</strong><p>"hi" — the dangerous kind.</p></li>
+        <li><span class="dot"></span><strong>week 2</strong><p>first 4-hour call. fell asleep on the line.</p></li>
+        <li><span class="dot"></span><strong>month 3</strong><p>that rooftop. that song. that look.</p></li>
+        <li><span class="dot"></span><strong>month 6</strong><p>got caught in the rain. didn't run.</p></li>
+        <li><span class="dot"></span><strong>today</strong><p>still texting at 2:47 AM. always.</p></li>
+      </ul>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>made with ♡ for <strong>arnav</strong> &amp; <strong>netri</strong></p>
+    <p class="tiny">to the next 2:47 AM, and the one after that.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
